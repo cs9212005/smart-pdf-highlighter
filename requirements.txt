@@ -1,14 +1,10 @@
-# --- versiones que despliegan bien en Streamlit Cloud ---
 streamlit==1.36.0
-numpy==1.24.4
-scikit_learn==1.3.2
+numpy==1.26.4
+scikit-learn==1.3.2
 networkx==3.1
 sentence-transformers==2.3.1
 protobuf<5
-
-# Evita compilar y el lío con tesseract/leptonica
 PyMuPDF==1.24.9
 
-# PyTorch solo CPU (usa índice oficial de wheels CPU)
 --extra-index-url https://download.pytorch.org/whl/cpu
-torch==2.3.1+cpu
+torch==2.2.2+cpu
